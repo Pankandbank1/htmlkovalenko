@@ -1,1 +1,50 @@
-# htmlkovalenko
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <link rel="stylesheet" href="main-style.css">
+  <title>Здесь будет интернет магазин «Китайский БИТ»</title>
+</head>
+<body>
+<dl class="skills">
+  <dt>HTML</dt>
+  <dd>60%</dd>
+  <dt>CSS</dt>
+  <dd>20%</dd>
+  <dt>JS</dt>
+  <dd>10%</dd>
+</dl
+<div class="container">
+<header class="page-header">
+  <h1 class="title">Здесь будет интернет магазин <br></<span class="accent">«Китайский БИТ»</span><h1>
+  <div class="logo">
+    <img src="logo.png" /> 
+  </div>
+</header>
+<main class="page-main">
+  <ol class="products-list">
+    <li class="product card blue">
+      <h2>Камера</h2>
+      <p>Описание товара в будущем</p>
+    </li>
+    <li class="product card white">
+      <h2>Ноутбук</h2>
+      <p style="color:brown" >Описание товара в будущем</p>
+    </li>
+    <li class="product card grey ">
+      <h2>МФУ</h2>
+      <p style="color:purple">Описание товара в будущем</p>
+    </li>
+    <li class="product printer card green">
+      <h2>Принтер</h2>
+      <p style="color:blue">Описание товара в будущем</p>
+    </li>
+  </ol>
+</main>
+<footer class="page-footer">
+  © 2020 — что есть, тем и торгуем
+</footer>
+</div>
+
+</body>
+</html>
